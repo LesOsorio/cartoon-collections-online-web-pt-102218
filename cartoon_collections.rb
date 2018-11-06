@@ -1,5 +1,5 @@
 def roll_call_dwarves(name)
-  puts "#{name}"
+  puts "1..7 #{name}"
 end
 name = ["Doc","Dopey","Grumpy","Bashful","Happy","Sleepy","Sneezy"]
 
