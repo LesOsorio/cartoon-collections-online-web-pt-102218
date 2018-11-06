@@ -11,9 +11,9 @@ def summon_captain_planet(planeteer_calls)
   names.each {|name|puts name + "!"}
 end
 
-def long_planeteer_calls(short_words,assorted_words)
-  
-  
+def long_planeteer_calls(assorted_words)
+  assorted_words.any? {|word| word.length >= 4}
+
 end
 
 def find_the_cheese# code an argument here
