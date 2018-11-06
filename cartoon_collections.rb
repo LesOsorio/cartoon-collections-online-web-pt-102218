@@ -1,12 +1,13 @@
+name = ["Doc","Dopey","Grumpy","Bashful","Happy","Sleepy","Sneezy"]
 
 def roll_call_dwarves(name)
   dwarfs = 1..7
   for dwarf in line
     puts "#{name}"
 end
-name = ["Doc","Dopey","Grumpy","Bashful","Happy","Sleepy","Sneezy"]
 
-planeteer_calls =
+planeteer_calls = 
+
 def summon_captain_planet# code an argument here
   # Your code here
 end
