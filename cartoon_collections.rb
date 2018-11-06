@@ -3,6 +3,7 @@ def roll_call_dwarves(name)
   dwarfs = 1..7
   for dwarf in line
     puts "#{name}"
+  end
 end
 
 planeteer_calls = ["earth","wind","fire","water","heart"]
