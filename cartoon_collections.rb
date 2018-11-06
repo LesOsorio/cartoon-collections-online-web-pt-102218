@@ -16,6 +16,8 @@ def long_planeteer_calls(assorted_words)
 end
 
 def find_the_cheese(ingredients)
-  cheese_types.include? (ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  ingredients.each do |word|
+    cheese_types.include?(word)
+  end
 end
