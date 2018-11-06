@@ -1,5 +1,4 @@
 name = ["Doc","Dopey","Grumpy","Bashful","Happy","Sleepy","Sneezy"]
-
 def roll_call_dwarves(name)
   dwarfs = 1..7
   for dwarf in line
@@ -7,7 +6,6 @@ def roll_call_dwarves(name)
 end
 
 planeteer_calls = ["earth","wind","fire","water","heart"]
-
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map! {|name| name.upcase}
   names.each {|name|puts name + '!'}
