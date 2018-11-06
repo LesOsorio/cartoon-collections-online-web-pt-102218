@@ -1,7 +1,7 @@
 name = ["Doc","Dopey","Grumpy","Bashful","Happy","Sleepy","Sneezy"]
 def roll_call_dwarves(name)
   dwarfs = 1..7
-  for dwarf in line
+  for dwarf in name
     puts "#{name}"
   end
 end
