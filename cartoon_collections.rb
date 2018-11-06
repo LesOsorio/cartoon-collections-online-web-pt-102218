@@ -9,8 +9,7 @@ end
 
 planeteer_calls = ["earth","wind","fire","water","heart"]
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map! {|name| name.upcase}
-  names.each {|name|puts name + "!"}
+  planeteer_calls.map! {|name| name.upcase + "!"}
 end
 
 def long_planeteer_calls(assorted_words)
